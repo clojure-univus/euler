@@ -1,7 +1,9 @@
 (ns euler.core
+  (:require [euler.problem000x.problem0001])
+  (:require [euler.problem000x.ingression :as ingression000x])
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Clojure for euler!"
   [& args]
-  (println "Hello, World!"))
+  (ingression000x/ingress))
