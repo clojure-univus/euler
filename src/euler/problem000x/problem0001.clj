@@ -3,7 +3,7 @@
 
 (defn multiples-of-3-and-5
   "Multiples of 3 and 5"
-  [& args]
+  []
   (let [r (range 1 1000)]
     (filter 
       #(or
@@ -11,8 +11,8 @@
         (= (rem % 5) 0) )r)))
 
 (defn ingress 
-  "Problem 1"
-  [& args]
+  "Problem 1: Multiples of 3 and 5"
+  []
   (println "--------------------------------")
-  (print "Problem 1: ")
+  (print "Answer: ")
   (println (reduce + (multiples-of-3-and-5))))

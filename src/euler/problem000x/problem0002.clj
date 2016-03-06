@@ -2,8 +2,8 @@
   (:gen-class))
 
 (defn ingress 
-  "Problem 2"
+  "Problem 2: Even Fibonacci numbers"
   [& args]
   (println "--------------------------------")
-  (print "Problem 2: ")
+  (print "Answer: ")
   )
